@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/iSelectDataNum"
+        android:title="@string/data_settings" />
+
+    <item android:id="@+id/iIp"
+        android:title="@string/ip" />
+
+    <item android:id="@+id/iSelectTemperature_CF"
+        android:title="@string/select_c_f">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_celsius"
+                    android:checked="true"
+                    android:title="@string/celsius" />
+                <item
+                    android:id="@+id/menu_fahrenheit"
+                    android:checked="false"
+                    android:title="@string/fahrenheit" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/iRefresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/refresh" />
+</menu>

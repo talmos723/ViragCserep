@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_device_thermostat_24.xml" value="0.2625" />
+        <entry key="app/src/main/res/drawable/ic_thermometer.xml" value="0.2625" />
+        <entry key="app/src/main/res/drawable/rain_symbol.xml" value="0.174" />
+        <entry key="app/src/main/res/layout-w1200dp/select_data_number.xml" value="0.33" />
+        <entry key="app/src/main/res/layout-w720dp/select_data_number.xml" value="0.3512788778877888" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4594731509625127" />
+        <entry key="app/src/main/res/layout/adat_view.xml" value="0.4693515704154002" />
+        <entry key="app/src/main/res/layout/cserep_main.xml" value="0.7740036231884058" />
+        <entry key="app/src/main/res/layout/fragment_cserep_all_data.xml" value="0.5869791666666667" />
+        <entry key="app/src/main/res/layout/fragment_cserep_main.xml" value="0.4375" />
+        <entry key="app/src/main/res/layout/fragment_graphs.xml" value="0.5869791666666667" />
+        <entry key="app/src/main/res/layout/fragment_humidity_graph.xml" value="0.5859375" />
+        <entry key="app/src/main/res/layout/fragment_light_graph.xml" value="0.5859375" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.5869791666666667" />
+        <entry key="app/src/main/res/layout/fragment_rain_graph.xml" value="0.5284444444444445" />
+        <entry key="app/src/main/res/layout/fragment_soil_moisture_graph.xml" value="0.5859375" />
+        <entry key="app/src/main/res/layout/fragment_temperature_graph.xml" value="0.5859375" />
+        <entry key="app/src/main/res/layout/fragment_water_level_graph.xml" value="0.5859375" />
+        <entry key="app/src/main/res/layout/fragment_welcome_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/select_data_number.xml" value="0.313832010029252" />
+        <entry key="app/src/main/res/layout/state_view.xml" value="0.4279891304347826" />
+        <entry key="app/src/main/res/menu-v26/main_menu.xml" value="0.5953125" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.95" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="hu.bme.aut.android.virgcserpmonitor.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_graphsFragment"
+            app:destination="@id/graphsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_selectDataNumber"
+            app:destination="@id/selectDataNumber" />
+    </fragment>
+    <fragment
+        android:id="@+id/graphsFragment"
+        android:name="hu.bme.aut.android.virgcserpmonitor.fragments.graphs.GraphsFragment"
+        android:label="fragment_graphs"
+        tools:layout="@layout/fragment_graphs" >
+        <action
+            android:id="@+id/action_graphsFragment_to_selectDataNumber"
+            app:destination="@id/selectDataNumber" />
+        <action
+            android:id="@+id/action_graphsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectDataNumber"
+        android:name="hu.bme.aut.android.virgcserpmonitor.fragments.datas.SelectDataNumber"
+        android:label="SelectDataNumber"
+        tools:layout="@layout/select_data_number" >
+        <action
+            android:id="@+id/action_selectDataNumber_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_selectDataNumber_to_graphsFragment"
+            app:destination="@id/graphsFragment" />
+    </fragment>
+</navigation>
